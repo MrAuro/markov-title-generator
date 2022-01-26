@@ -12,7 +12,7 @@ for (let title of titles) {
 
 for (let i = 0; i < 10; i++) {
 	let title = markov.generateSentences(1);
-	while (title.split(' ').length < 5) {
+	while (title.split(' ').length < 5 || title.split(' ').length > 140) {
 		title = markov.generateSentences(1);
 	}
 	console.log(title);
