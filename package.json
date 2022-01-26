@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "async-markov": "https://github.com/Supinic/async-markov",
+    "axios": "^0.25.0",
+    "dotenv": "^14.3.2",
+    "markov-strings": "^3.0.1"
+  }
+}
